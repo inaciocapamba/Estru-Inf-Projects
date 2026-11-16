@@ -1,5 +1,5 @@
 class TextEditor:
-    """Gerenciador de Texto com de Sistema Undo/Redo (Pilhas)"""
+    """Gerenciador de Texto com Sistema de Undo/Redo (Pilhas)"""
     def __init__(self):
         self.text = ""
         self.undo_stack = []
