@@ -31,7 +31,8 @@ class TextEditor:
         print(f"\n[Redo] Ação refeita. Estado atual: '{self.text}'")
     
     def show(self):
-        print(f"\n============== TEXTO ATUAL ==============\n{self.text if self.text else "<vazio>"}\n")
+        print(f"\n=================== TEXTO ATUAL ===================\n{self.text if self.text else "<vazio>"}")
+        print("="*52)
 
 if __name__ == "__main__":
     editor = TextEditor()
